@@ -1,1 +1,4 @@
 01-bases/**/*.js
+01-bases/**/*.js.map
+
+node_modules/
