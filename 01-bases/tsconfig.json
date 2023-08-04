@@ -1,12 +1,13 @@
 {
   "exclude": [
-    "config_ts/node_modules2/",
-    "config_ts/pruebas/",
+    "include-exclude/node_modules2/",
+    "include-exclude/pruebas/",
   ],
 
-  // "include": [
-  //   "config_ts/node_modules",
-  // ],
+  "include": [
+    "ES6",
+    // "include-exclude/node_modules",
+  ],
   
   "compilerOptions": {
 
