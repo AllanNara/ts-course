@@ -1,3 +1,4 @@
+(() => {
 
 type Carro = {
   carroceria: string,
@@ -58,20 +59,27 @@ type Apocalipsis = {
   miembros: Array<string>,
   lider: boolean
 }
+
+console.log("pase por aqui")
+
 // const charles: { poder: string, estatura: number } = {
 const charles: Charles = {
   poder:"psiquico",
   estatura: 1.78
 };
-
+  
 // const apocalipsis: Apocalipsis = {
 const apocalipsis: { miembros: Array<string>, lider: boolean } = {
   lider:true,
   miembros: ["Magneto","Tormenta","Psylocke","Angel"]
 }
 
+console.log("pase por aca")
+
 // Mystique, debe poder ser cualquiera de esos dos mutantes (charles o apocalipsis)
 let mystique: Charles | Apocalipsis;
 
 mystique = charles;
 mystique = apocalipsis;
+
+})()
