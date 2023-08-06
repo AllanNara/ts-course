@@ -22,7 +22,7 @@
    
   }
 
-  console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+  // console.log("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
 
   // const apocalipsis1 = new Apocalipsis("Soy Apocalipsis1... el único")
   // const apocalipsis2 = new Apocalipsis("Soy Apocalipsis2... el único")
@@ -41,6 +41,6 @@
   // console.log(apocalipsis2);
   // console.log(apocalipsis3);
 
-  console.log("\n")
+  // console.log("\n")
   
 })()
