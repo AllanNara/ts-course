@@ -5,7 +5,8 @@
   ],
 
   "include": [
-    "ES6",
+    "clases"
+    // "ES6",
     // "include-exclude/node_modules",
   ],
   
