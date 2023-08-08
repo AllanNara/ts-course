@@ -1,3 +1,3 @@
-export { Hero } from "./hero";
-export { Pokemon } from "./pokemon";
-export { Villain } from "./villain";
+export { Hero } from "./hero.interface";
+export { Pokemon } from "./pokemon.interface";
+export { Villain } from "./villain.interfaces";
