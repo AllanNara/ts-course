@@ -1,4 +1,4 @@
-import powers, { Power } from "./data/powers";
+import powers, { Power } from "../data/powers";
 
 export class Hero {
   constructor(
